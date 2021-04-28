@@ -87,8 +87,7 @@ a, a:hover, a:active {
 	height: 100%;
 }
 
-/* Anchor will cover the whole item by default */
-/* For some effects it will show as a button */
+
 .grid figure figcaption > a {
 	z-index: 1000;
 	text-indent: 200%;
@@ -116,9 +115,6 @@ a, a:hover, a:active {
 	font-size: 68.5%;
 }
 
-/*---------------*/
-/***** Oscar *****/
-/*---------------*/
 
 figure.effect-oscar {
 	background: -webkit-linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
@@ -726,7 +722,6 @@ img {
 .page_section.paddind {
     padding-bottom: 60px;
 }
-
 
 /* Happy Clients
 ---------------------------------*/
