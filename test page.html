@@ -29,13 +29,27 @@
   background-color: #3e8e41;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
-}
   
-.btn-default {
- background: #000;
- color: #fff;
+  
+  
 }
+ 
+  
+  #jsButton {
+	font-weight: bold;
+	font-style: italic
+
+}
+
+
+
+.button {
+	background-colour: red;
+}
+
 </style>
+  
+  
 </head>
  
  
@@ -53,8 +67,19 @@
 
 </body>
 
+<script>
+	
+	var ClickMeButton = document.createElement("button");
 
-<a href="https://archlinux.org/" class="btn btn-default" role="button">Link Button</a>
+	ClickMeButton.innerHTML = "BUTTTTTTTT";
+
+	ClickMeButton.id = "jsButton";
+
+	ClickMeButton.className = "button";
+
+	document.body.appendChild(ClickMeButton);
+
+</script>
 
 
 
