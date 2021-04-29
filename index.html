@@ -11,17 +11,6 @@
 <link href="css/animate.css" rel="stylesheet" type="text/css">
 
 <script>
- var ClickMeButton = document.createElement("button");
-
-	ClickMeButton.innerHTML = "BUTTTTTTTT";
-
-	ClickMeButton.id = "jsButton";
-
-	ClickMeButton.className = "button";
-
-	document.body.appendChild(ClickMeButton);
-	
-	document.getElementById("jsButton").onclick = function() {viewCV()};  
 	
 	
 	
@@ -380,9 +369,22 @@ function viewQual(){
     <section class="page_section contact" id="My CV">
 	 <h2>My CV</h2>
     <h6>Click the button below to see my CV.</h6>
+
+<script>	    
+	  var ClickMeButton = document.createElement("button");
+
+	ClickMeButton.innerHTML = "BUTTTTTTTT";
+
+	ClickMeButton.id = "jsButton";
+
+	ClickMeButton.className = "button";
+
+	document.body.appendChild(ClickMeButton);
+	
+	document.getElementById("jsButton").onclick = function() {viewCV()};  	    
 	    
-	    
-	 
+</script>	 
+
 </footer>
 
 
