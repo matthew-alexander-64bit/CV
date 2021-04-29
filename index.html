@@ -11,16 +11,31 @@
 <link href="css/animate.css" rel="stylesheet" type="text/css">
 
 <script>
-    function viewCV(){
-        window.location="Matthew Alexander-cv2021.pdf";
-    }
+ var ClickMeButton = document.createElement("button");
 
+	ClickMeButton.innerHTML = "BUTTTTTTTT";
 
-    function viewQual(){
-        window.location="Matthew Alexander full historical qualifications.pdf";
-    }	
+	ClickMeButton.id = "jsButton";
+
+	ClickMeButton.className = "button";
+
+	document.body.appendChild(ClickMeButton);
 	
-	</script>
+	document.getElementById("jsButton").onclick = function() {viewCV()};  
+	
+	
+	
+	
+	
+function viewCV(){
+	window.location="Matthew Alexander-cv2021.pdf";
+}
+
+
+function viewQual(){
+	window.location="Matthew Alexander full historical qualifications.pdf";
+}	
+</script>
  
 </head>
 <body>
