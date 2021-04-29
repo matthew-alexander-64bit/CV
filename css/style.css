@@ -2346,13 +2346,6 @@ height: auto;
 }
 
 
-.Button-center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-}
-
 
 .button {
   display: inline-block;
@@ -2387,3 +2380,5 @@ height: auto;
   align-items: center;
   justify-content: center;
 }
+
+
