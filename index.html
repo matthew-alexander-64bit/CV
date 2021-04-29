@@ -10,9 +10,20 @@
 <link href="css/font-awesome.css" rel="stylesheet" type="text/css"> 
 <link href="css/animate.css" rel="stylesheet" type="text/css">
 
-<script>
+
+<script>	    
+	  var ClickMeButton = document.createElement("button");
+
+	ClickMeButton.innerHTML = "BUTTTTTTTT";
+
+	ClickMeButton.id = "jsButton";
+
+	ClickMeButton.className = "button";
+
+	document.body.appendChild(ClickMeButton);
 	
-	
+	document.getElementById("jsButton").onclick = function() {viewCV()};  	    
+	    	
 	
 	
 	
@@ -370,20 +381,7 @@ function viewQual(){
 	 <h2>My CV</h2>
     <h6>Click the button below to see my CV.</h6>
 
-<script>	    
-	  var ClickMeButton = document.createElement("button");
-
-	ClickMeButton.innerHTML = "BUTTTTTTTT";
-
-	ClickMeButton.id = "jsButton";
-
-	ClickMeButton.className = "button";
-
-	document.body.appendChild(ClickMeButton);
-	
-	document.getElementById("jsButton").onclick = function() {viewCV()};  	    
-	    
-</script>	 
+<button id="jsButton">???????????????? </button>	 
 
 </footer>
 
