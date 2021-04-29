@@ -2367,6 +2367,9 @@ height: auto;
   border: none;
   border-radius: 15px;
   box-shadow: 0 9px #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button:hover {background-color: #3e8e41}
