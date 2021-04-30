@@ -140,7 +140,7 @@ figure.effect-oscar figcaption::before {
 	right: 30px;
 	bottom: 30px;
 	left: 30px;
-	border: 1px solid #03a9f4;
+	border: 1px solid #00C1BB;
 	content: '';
 }
 
@@ -165,7 +165,7 @@ figure.effect-oscar p {
 figure.effect-oscar:hover h2 {
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
-	color: #03a9f4;
+	color: #00C1BB;
 }
 
 figure.effect-oscar:hover figcaption::before,
