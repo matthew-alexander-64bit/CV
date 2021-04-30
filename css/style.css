@@ -471,29 +471,29 @@ a.read_more:hover {
 /* Services
 ---------------------------------*/
 
-#service {
+#skills {
     padding: 110px 0px;
     background: #00C1BB;
 }
-#service h2{
+#skills h2{
   color: #fff;
 
 }
-.service_wrapper {
+.skills_wrapper {
     padding: 40px 0 40px;
 }
 
-.service_section {
+.skills_section {
 }
 
-.service_block {
+.skills_block {
     text-align: center;
     padding-left: 15px;
     padding-right: 15px; 
 	position: relative;
 }
 
-.service_icon {
+.skills_icon {
     width: 90px;
     height: 85px;
     margin: 0px auto 25px;
@@ -502,7 +502,7 @@ a.read_more:hover {
 
  
 
-.service_icon span {
+.skills_icon span {
     background: transparent;
     display: block;
     height: 100%;
@@ -510,7 +510,7 @@ a.read_more:hover {
     border-radius: 50%;
 }
 
-.service_icon i {
+.skills_icon i {
   color: #FFFFFF;
 font-size: 40px;
 margin-top: 0;
@@ -521,17 +521,17 @@ display: block;
 text-align: center;
 }
 
-.service_block h3 {
+.skills_block h3 {
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
     font-size: 24px;
     color: #fff;
     margin: 35px 0 15px;
 }
-#service h6{
+#skills h6{
 color:#fff;
 }
-.service_block p {
+.skills_block p {
     font-size: 14px;
     color: #fff;
     margin: 0 0 35px 0;
@@ -560,19 +560,19 @@ color:#fff;
     padding: 0px;
 }
 
-.service-list {
+.skills-list {
     padding: 0 0 0 0;
     font-size: 14px;
     margin-bottom: 40px;
 }
 
-.service-list-col1 {
+.skills-list-col1 {
     float: left;
     width: 60px;
     text-align: center;
 }
 
-.service-list-col1 i {
+.skills-list-col1 i {
     display:;
     color: #888;
     font-size: 19px;
@@ -580,7 +580,7 @@ color:#fff;
     line-height: 20px;
 }
 
-.service-list-col2 {
+.skills-list-col2 {
     overflow: hidden;
 }
 
