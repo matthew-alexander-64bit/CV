@@ -473,7 +473,7 @@ a.read_more:hover {
 
 #service {
     padding: 110px 0px;
-    background: #03A9F4;
+    background: #00C1BB;
 }
 #service h2{
   color: #fff;
@@ -874,7 +874,7 @@ background-position-y: 70px;
 	position: absolute;
 	font-family: FontAwesome;
 	font-size: 1.125em;
-	color: #03a9f4;
+	color: #00C1BB;
 	left: 0px;
 	top: 6px;
 }
